@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Dashboard — Dark/Light Mode
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+
+![React](https://img.shields.io/badge/React-17-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Create React App](https://img.shields.io/badge/Create%20React%20App-4.0.1-09D3AC?style=for-the-badge&logo=create-react-app&logoColor=white)
+![styled-components](https://img.shields.io/badge/styled--components-5.2-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![React Router](https://img.shields.io/badge/React%20Router-5.2-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+</div>
+
+## Overview
+
+A simple dashboard UI demonstrating dark/light and multi-theme switching using styled-components. Built with Create React App and React 17. Useful as a learning reference for themeable UI patterns.
+
+## Key Features
+
+- Multiple color themes (light, dark, darkBlue, purple, videoGame) with live switching
+- Global theming via styled-components `ThemeProvider` and `GlobalStyles`
+- Clean dashboard layout with sidebar, navigation, and deposits list
+
+## Tech Stack
+
+React 17, Create React App (react-scripts 4), styled-components 5, React Router 5, JavaScript (ES6+)
+
+## Architecture
+
+SPA organized under `src/` with presentational components in `components/` and layout in `containers/`. Theme state in `App` drives `ThemeProvider`; global styles applied via `GlobalStyles`. Assets in `public/` and `src/assets/`.
+
+## Performance & Accessibility
+
+Lightweight CRA app; CSS-in-JS theme variables to avoid reflow-heavy DOM updates. Basic a11y helpers (e.g., `.visually-hidden`), semantic HTML, and readable color contrast across themes.
+
+## Quality
+
+- Linting: ESLint (react-app) • Formatting: N/A
+- Type safety: JavaScript (no TypeScript)
+- Tests: Testing Library deps present; no tests included
+- CI: Not configured
+
+## Prerequisites
+
+- Node.js: `>=14`
+
+## Installation
+
+```bash
+git clone https://github.com/maxgalchenko/dashbord--darklightmode.git
+cd dashbord--darklightmode
+npm install
+```
+
+## Quick Start
+
+```bash
+npm start
+# Production build
+npm run build
+# Serve the 'build' folder with any static server
+```
+
+Open http://localhost:3000
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` – Start the development server at http://localhost:3000
+- `npm run build` – Build optimized production assets to `build/`
+- `npm test` – Run tests in watch mode (no tests included)
+- `npm run eject` – Eject CRA configuration (one-way)
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div align="center">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Built with ❤️ by [Maksym Galchenko](https://github.com/maxgalchenko)
 
-### `yarn test`
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/galchenko-max/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=web)](https://portfolio-green-six-29.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:galchenko.maksym@gmail.com)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>
