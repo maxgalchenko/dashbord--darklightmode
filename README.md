@@ -69,6 +69,14 @@ Open http://localhost:3000
 - `npm test` – Run tests in watch mode (no tests included)
 - `npm run eject` – Eject CRA configuration (one-way)
 
+## Screenshots
+
+![Dashboard Main](./src/assets/images/screenshots/dashboard-01.png)
+
+![Dashboard View 2](./src/assets/images/screenshots/dashboard-02.png)
+
+![Dashboard Themes](./src/assets/images/screenshots/dashboard-03.png)
+
 ---
 
 <div align="center">
